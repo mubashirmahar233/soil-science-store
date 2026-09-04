@@ -2,85 +2,206 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Soil Science for Students — university-level notes and study materials.">
-  <title>Soil Science for Students | Notes Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Soil Science for Students — professional university-level Soil Science notes and study resources.">
+  <meta name="theme-color" content="#173f2b">
+  <title>Soil Science for Students | Academic Notes</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="topbar">
-  <div class="container nav">
-    <a class="brand" href="#"><span class="logo">🌱</span><span>Soil Science<br><small>for Students</small></span></a>
-    <nav><a href="#products">Notes</a><a href="#about">About</a><a href="#faq">FAQ</a></nav>
-    <button class="cart-btn" id="cartButton">Cart <span id="cartCount">0</span></button>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="#top" aria-label="Soil Science for Students home">
+      <span class="brand-mark" aria-hidden="true">SS</span>
+      <span class="brand-text">
+        <strong>Soil Science</strong>
+        <small>for Students</small>
+      </span>
+    </a>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#products">Notes</a>
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <button class="cart-button" id="cartButton" type="button">
+      Cart <span id="cartCount">0</span>
+    </button>
   </div>
 </header>
 
-<main>
-<section class="hero">
-  <div class="container hero-grid">
-    <div>
-      <p class="eyebrow">UNIVERSITY-LEVEL STUDY MATERIAL</p>
-      <h1>Master Soil Science with <em>clear, comprehensive notes.</em></h1>
-      <p class="hero-text">Well-organized study resources for Soil Science and related agricultural subjects — designed for students, revision and exam preparation.</p>
-      <div class="hero-actions"><a class="btn primary" href="#products">Browse Notes</a><a class="btn secondary" href="#about">Learn More</a></div>
-      <div class="trust"><span>✓ Digital delivery</span><span>✓ Student-friendly</span><span>✓ Multiple subjects</span></div>
-    </div>
-    <div class="hero-card">
-      <div class="leaf">🌿</div><h3>Complete Study Library</h3>
-      <p>Explore individual series or save with the complete package.</p>
-      <div class="stat-row"><div><strong>9+</strong><small>Series</small></div><div><strong>PDF</strong><small>Digital format</small></div><div><strong>24/7</strong><small>Access</small></div></div>
-    </div>
-  </div>
-</section>
+<main id="top">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">ACADEMIC STUDY RESOURCES</p>
+        <h1>Understand Soil Science with <span>structured, comprehensive notes.</span></h1>
+        <p class="hero-text">
+          Professional university-level study material covering core Soil Science subjects,
+          revision resources and related agricultural topics.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#products">Browse Notes</a>
+          <a class="button button-secondary" href="#about">About the Collection</a>
+        </div>
+        <div class="trust-row" aria-label="Store features">
+          <span>Digital resources</span>
+          <span>University focused</span>
+          <span>Worldwide students</span>
+        </div>
+      </div>
 
-<section id="products" class="section">
-  <div class="container">
-    <div class="section-head"><div><p class="eyebrow">OUR COLLECTION</p><h2>Study Notes & Resources</h2></div><p>Choose a subject or get the complete package.</p></div>
-    <div class="products" id="productGrid"></div>
-  </div>
-</section>
-
-<section id="about" class="section alt">
-  <div class="container about-grid">
-    <div><p class="eyebrow">WHY THIS STORE?</p><h2>Built for serious Soil Science students.</h2></div>
-    <div class="features">
-      <div><span>📚</span><div><h3>Organized content</h3><p>Topics are arranged into practical subject series for easier study.</p></div></div>
-      <div><span>🧠</span><div><h3>Exam-focused</h3><p>Useful for learning, revision and preparing for university assessments.</p></div></div>
-      <div><span>💻</span><div><h3>Digital access</h3><p>Purchase digital resources and access them after payment confirmation.</p></div></div>
+      <div class="academic-card">
+        <div class="card-rule"></div>
+        <p class="card-label">SOIL SCIENCE LIBRARY</p>
+        <h2>Build a stronger foundation in soil.</h2>
+        <p>Choose individual subject series or the complete study collection.</p>
+        <div class="stats">
+          <div><strong>9+</strong><span>Resources</span></div>
+          <div><strong>PDF</strong><span>Digital format</span></div>
+          <div><strong>24/7</strong><span>Online access</span></div>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="faq" class="section">
-  <div class="container narrow"><p class="eyebrow">QUESTIONS</p><h2>Frequently Asked Questions</h2>
-    <details><summary>What format are the notes?</summary><p>Products are intended to be delivered as digital PDF files. Replace the demo delivery settings with your real files before launch.</p></details>
-    <details><summary>Can I buy individual series?</summary><p>Yes. The demo store supports individual products and a complete package.</p></details>
-    <details><summary>How does payment work?</summary><p>The checkout in this starter site is a placeholder. Connect an approved payment provider before accepting real payments.</p></details>
-  </div>
-</section>
+  <section id="products" class="section">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE COLLECTION</p>
+          <h2>Academic Notes & Resources</h2>
+        </div>
+        <p>Select a subject or choose the complete package.</p>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </div>
+  </section>
+
+  <section id="about" class="section section-soft">
+    <div class="container about-grid">
+      <div>
+        <p class="eyebrow">WHY STUDENTS USE IT</p>
+        <h2>Designed for focused learning and revision.</h2>
+        <p class="about-intro">
+          The collection is organized by subject so students can study individual topics
+          or build a complete Soil Science reference library.
+        </p>
+      </div>
+
+      <div class="feature-list">
+        <article class="feature">
+          <span class="feature-number">01</span>
+          <div>
+            <h3>Organized by subject</h3>
+            <p>Separate series make it easier to find the material you need for a specific course.</p>
+          </div>
+        </article>
+        <article class="feature">
+          <span class="feature-number">02</span>
+          <div>
+            <h3>Comprehensive study material</h3>
+            <p>Structured notes are prepared for learning, revision and university assessments.</p>
+          </div>
+        </article>
+        <article class="feature">
+          <span class="feature-number">03</span>
+          <div>
+            <h3>Digital delivery</h3>
+            <p>Resources are supplied digitally after the payment and order process is completed.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="section">
+    <div class="container narrow">
+      <p class="eyebrow">HELP & INFORMATION</p>
+      <h2>Frequently Asked Questions</h2>
+
+      <details>
+        <summary>What format are the notes?</summary>
+        <p>The collection is designed for digital PDF delivery. Final delivery settings should be connected to your secure storage and payment system before launch.</p>
+      </details>
+      <details>
+        <summary>Can I purchase one subject only?</summary>
+        <p>Yes. Individual series can be purchased separately, or you can choose the complete package.</p>
+      </details>
+      <details>
+        <summary>How does payment work?</summary>
+        <p>This website is currently a storefront template. A verified payment provider must be connected before accepting real payments.</p>
+      </details>
+      <details>
+        <summary>How will I receive my notes?</summary>
+        <p>After successful payment, the final version should deliver the purchased resources through a protected download or email delivery system.</p>
+      </details>
+    </div>
+  </section>
 </main>
 
-<footer><div class="container footer"><div><strong>🌱 Soil Science for Students</strong><p>Study smarter. Understand soil better.</p></div><p>© <span id="year"></span> Soil Science for Students</p></div></footer>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">SOIL SCIENCE FOR STUDENTS</div>
+      <p>University-level Soil Science study resources.</p>
+    </div>
+    <div class="footer-note">
+      <p>© <span id="year"></span> Soil Science for Students</p>
+      <p>Academic resources for educational use.</p>
+    </div>
+  </div>
+</footer>
 
 <div class="overlay" id="overlay"></div>
-<aside class="cart" id="cart">
-  <div class="cart-head"><h2>Your Cart</h2><button id="closeCart">×</button></div>
-  <div id="cartItems"></div>
-  <div class="cart-bottom"><div class="total"><span>Total</span><strong id="cartTotal">$0.00</strong></div><button class="btn primary full" id="checkout">Proceed to Checkout</button><p class="tiny">Demo checkout only — connect your real payment gateway before launch.</p></div>
+
+<aside class="cart-panel" id="cart" aria-label="Shopping cart" aria-hidden="true">
+  <div class="cart-header">
+    <div>
+      <p class="eyebrow">ORDER</p>
+      <h2>Your Cart</h2>
+    </div>
+    <button class="icon-button" id="closeCart" type="button" aria-label="Close cart">×</button>
+  </div>
+
+  <div class="cart-items" id="cartItems"></div>
+
+  <div class="cart-footer">
+    <div class="total-row">
+      <span>Total</span>
+      <strong id="cartTotal">$0.00</strong>
+    </div>
+    <button class="button button-primary full-width" id="checkout" type="button">Proceed to Checkout</button>
+    <p class="small-note">Demo checkout only. Connect an approved payment provider before accepting real payments.</p>
+  </div>
 </aside>
 
-<div class="modal" id="checkoutModal">
-  <div class="modal-box"><button class="modal-close" id="closeModal">×</button><p class="eyebrow">CHECKOUT</p><h2>Complete your order</h2>
+<div class="modal" id="checkoutModal" aria-hidden="true">
+  <div class="modal-box">
+    <button class="icon-button modal-close" id="closeModal" type="button" aria-label="Close checkout">×</button>
+    <p class="eyebrow">CHECKOUT</p>
+    <h2>Complete your order</h2>
+
     <form id="checkoutForm">
-      <label>Full name<input required id="customerName" autocomplete="name"></label>
-      <label>Email address<input required type="email" id="customerEmail" autocomplete="email"></label>
+      <label>
+        Full name
+        <input required id="customerName" autocomplete="name">
+      </label>
+
+      <label>
+        Email address
+        <input required type="email" id="customerEmail" autocomplete="email">
+      </label>
+
       <div class="order-summary" id="orderSummary"></div>
-      <button class="btn primary full" type="submit">Continue to Payment</button>
-      <p class="tiny">No card details are collected by this demo. A real payment gateway must be connected here.</p>
+
+      <button class="button button-primary full-width" type="submit">Continue to Payment</button>
+      <p class="small-note">No card information is collected by this demo checkout.</p>
     </form>
   </div>
 </div>
+
 <script src="script.js"></script>
 </body>
 </html>

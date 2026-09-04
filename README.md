@@ -1,26 +1,18 @@
-# Soil Science for Students — Notes Store
+# Soil Science for Students — Professional Website
 
-A responsive static storefront for selling digital study notes.
+A clean, professional static storefront for university-level Soil Science study resources.
 
-## Included
-- Responsive homepage
-- Product catalog
-- Shopping cart
-- Demo checkout form
-- USD pricing
-- FAQ/about sections
-- No external libraries required
+## Files
+- `index.html` — website structure
+- `styles.css` — professional responsive design
+- `script.js` — product catalog and demo cart
+- `README.md` — project information
 
-## Important before launch
-This package intentionally does **not** process real card payments. A static GitHub Pages site cannot safely contain payment secrets or server-side payment logic. Connect an approved payment provider through its hosted checkout/API and use a server-side component for payment verification and secure delivery.
+## Important
+This version intentionally uses no emoji icons. It uses a restrained academic visual style.
 
-Also do not place paid PDFs directly in a public GitHub repository: GitHub Pages content is publicly accessible.
+The checkout is a demonstration only. Before accepting real payments, connect an approved payment provider and implement secure order/payment verification and protected digital delivery.
 
-## Edit products
-Open `script.js` and change the `products` array. Add your own descriptions and prices.
+Do not place paid PDF files or payment secrets in a public GitHub Pages repository.
 
-## Run locally
-Open `index.html` in a browser, or use any simple local static server.
-
-## GitHub Pages
-Create a GitHub repository, upload `index.html`, `styles.css`, `script.js`, and `README.md`, then enable Pages from Settings → Pages. GitHub Pages can publish static files from a repository.
+GitHub Pages is suitable for static website files, but GitHub's current policy says Pages is not intended to be used as free hosting for an online business or e-commerce site. Use an appropriate commercial hosting/payment setup for the final store.
